@@ -1,0 +1,22 @@
+<animated-vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:drawable="@drawable/map" >
+    <target
+        android:name="top"
+        android:animation="@anim/map_top_to_menu_top" />
+
+    <target
+        android:name="bottom"
+        android:animation="@anim/map_bottom_to_menu_bottom" />
+
+    <target
+        android:name="middleLeft"
+        android:animation="@anim/map_middle_left_menu_middle" />
+
+    <target
+        android:name="middleRight"
+        android:animation="@anim/map_middle_right_menu_middle" />
+
+    <target
+        android:name="rotationGroup"
+        android:animation="@anim/icon_rotation" />
+</animated-vector>
