@@ -22,8 +22,8 @@
 
 
     <!-- menu -->
-    <string name="menuTop">M 104 108 L 209 108  L 309 108 L 409 108 L 409 158   L 309 158 L 209 158  L 104 158 Z</string>
-    <string name="menuMiddle">M 104 232 L 409 232 L 409 282 L 104 282 Z</string>
-    <string name="menuBottom">M 104 355 L 209 355  L 309 355 L 409 355 L 409 408   L 309 408 L 209 408  L 104 408 Z</string>
+    <string name="menuTop">M 20 20 L 40 20  L 60 20 L 80 20 L 80 30   L 60 30 L 40 30  L 20 30 Z</string>
+    <string name="menuMiddle">M 20 44 L 80 44 L 80 54 L 20 54 Z</string>
+    <string name="menuBottom">M 20 67 L 40 67  L 60 67 L 80 67 L 80 77  L 60 77 L 40 77  L 20 77 Z</string>
 
 </resources>
