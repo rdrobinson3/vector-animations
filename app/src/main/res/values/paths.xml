@@ -3,16 +3,27 @@
 
 
     <!-- map -->
-    <string name="mapBG">M 34 122.555267 L 186.537428 61.568943 L 325.436274 116.888454 L 478 56 L 478 391.169983 L 325.462268 452.058437 L 186.510643 396.738926 L 34 457.72525 Z</string>
-    <string name="mapLeft">M 59 137.563841 L 179.079605 89 L 179.079605 374 L 59 422.563841 Z</string>
-    <string name="mapMiddle">M 316.079605 137.563841 L 196 89 L 196 374 L 316.079605 422.563841 Z</string>
-    <string name="mapRight">M 333 137.563841 L 453.079605 89 L 453.079605 374 L 333 422.563841 Z</string>
+    <string name="mapTop">M 34 122 L 186 61 L 325 116 L 478 56 L 478 91 L 325 152 L 186 96 L 34 157 Z</string>
+    <string name="mapLeft">M 34 122 L 79 122 L 79 457 L 34 457 Z</string>
+
+    <string name="mapLeftShrunk">M 104 108 L 149 108 L 149 108 L 104 108 Z</string>
+
+    <string name="mapMiddleLeft">M 186 96 L 211 96 L 211 431 L 186 431 Z</string>
+    <string name="mapMiddleRight">M 325 116 L 350 116 L 350 451 L 325 451   Z</string>
+    <string name="mapRight">M 433 91 L 478 91 L 478 426 L 433 426 Z</string>
+
+    <string name="mapRightShrunk">M 364 408  L 409 408 L 409 408 L 364 408 Z</string>
+
+    <string name="mapBottom">M 34 457 L 186 396 L 325 451 L 478 391 L 478 426 L 325 487 L 186 431 L 34 492 Z</string>
+
+    <!-- Used for animation path -->
+    <string name="mapMiddleMiddle">M 265 106 L 293 106 L 293 441 L 265 441   Z</string>
+    <string name="mapMiddleSquare">M 265 232 L 293 232 L 293 282 L 265 282   Z</string>
 
 
     <!-- menu -->
-    <string name="menuBG">M 410 109 L 410 211.036887 L 410 303.949731 L 410 406 L 103 406 L 103 303.963102 L 103 211.036887 L 103 109 Z</string>
-    <string name="menuTop">M 409.792453 108.575951 L 409.792453 158.575951 L 104.792453 158.575951 L 104.792456 108.575951 Z</string>
-    <string name="menuMiddle">M 409.632238 282 L 409.632238 232 L 104.632238 232 L 104.632238 282 Z</string>
-    <string name="menuBottom">M 408.79284 355.396642 L 408.79284 405.396642 L 103.79284 405.396642 L 103.79284 355.396642 Z</string>
+    <string name="menuTop">M 104 108 L 209 108  L 309 108 L 409 108 L 409 158   L 309 158 L 209 158  L 104 158 Z</string>
+    <string name="menuMiddle">M 104 232 L 409 232 L 409 282 L 104 282 Z</string>
+    <string name="menuBottom">M 104 355 L 209 355  L 309 355 L 409 355 L 409 408   L 309 408 L 209 408  L 104 408 Z</string>
 
 </resources>

@@ -1,43 +1,26 @@
 <?xml version="1.0" encoding="utf-8"?>
 <vector xmlns:android="http://schemas.android.com/apk/res/android"
-    android:width="250dp"
-    android:height="250dp"
-    android:viewportWidth="512"
-    android:viewportHeight="512">
-
-    <!--<path-->
-        <!--android:name="top"-->
-        <!--android:fillColor="#D0011B"-->
-        <!--android:strokeWidth="1"-->
-        <!--android:pathData="M 409.792453 108.575951 L 409.792453 158.575951 L 104.792453 158.575951 L 104.792456 108.575951 L 104.792456 108.575951 L 104.792456 108.575951 L 104.792456 108.575951 L 104.792456 108.575951 Z" />  -->
+    android:width="500dp"
+    android:height="500dp"
+    android:viewportHeight="500"
+    android:viewportWidth="500">
 
     <path
-    android:name="top"
-    android:fillColor="#D0011B"
-    android:strokeWidth="1"
-    android:pathData="M 104 108 L 209 108  L 309 108 L 409 108 L 409 158   L 309 158 L 209 158  L 104 158 Z" />
+        android:name="top"
+        android:fillColor="#D0011B"
+        android:pathData="@string/menuTop"
+        android:strokeWidth="1" />
 
     <path
-    android:name="middle"
-    android:fillColor="#D0011B"
-    android:strokeWidth="1"
-    android:pathData="M 104 232 L 409 232 L 409 282 L 104 282 Z" />
+        android:name="middle"
+        android:fillColor="#D0011B"
+        android:pathData="@string/menuMiddle"
+        android:strokeWidth="1" />
 
     <path
         android:name="bottom"
         android:fillColor="#D0011B"
-        android:strokeWidth="1"
-        android:pathData="M 104 355 L 209 355  L 309 355 L 409 355 L 409 408   L 309 408 L 209 408  L 104 408 Z" />
+        android:pathData="@string/menuBottom"
+        android:strokeWidth="1" />
 
-    <!--"M 34 122.555267 L 186.537428 61.568943 L 325.436274 116.888454 L 478 56 L 478 91.169983 L 325.462268 152.058437 L 186.510643 96.738926 L 34 157.72525 Z"-->
-    <!--<path-->
-        <!--android:name="middle"-->
-        <!--android:fillColor="#D0011B"-->
-        <!--android:strokeWidth="1"-->
-        <!--android:pathData="M 409.632238 282 L 409.632238 232 L 104.632238 232 L 104.632238 282 Z" />-->
-    <!--<path-->
-        <!--android:name="bottom"-->
-        <!--android:fillColor="#D0011B"-->
-        <!--android:strokeWidth="1"-->
-        <!--android:pathData="M 408.79284 355.396642 L 408.79284 405.396642 L 103.79284 405.396642 L 103.79284 355.396642 Z" />-->
 </vector>

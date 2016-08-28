@@ -2,5 +2,14 @@
 <resources>
 
     <integer name="animation_duration">1000</integer>
+    <integer name="animation_three_quarter_duration">750</integer>
+    <integer name="animation_half_duration">500</integer>
+    <integer name="animation_quarter_duration">250</integer>
+
+
+    <!--<integer name="animation_duration">10000</integer>-->
+    <!--<integer name="animation_three_quarter_duration">7500</integer>-->
+    <!--<integer name="animation_half_duration">5000</integer>-->
+    <!--<integer name="animation_quarter_duration">2500</integer>-->
 
 </resources>

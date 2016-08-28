@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <vector xmlns:android="http://schemas.android.com/apk/res/android"
-    android:width="250dp"
-    android:height="250dp"
+    android:width="500dp"
+    android:height="500dp"
     android:viewportWidth="500"
     android:viewportHeight="500">
 
@@ -14,35 +14,41 @@
             android:name="top"
             android:fillColor="#D0011B"
             android:strokeWidth="1"
-            android:pathData="M 34 122 L 186 61 L 325 116 L 478 56 L 478 91 L 325 152 L 186 96 L 34 157 Z" />
+            android:pathData="@string/mapTop" />
+
+
+        <path
+            android:name="left"
+            android:fillColor="#D0011B"
+            android:strokeWidth="1"
+            android:pathData="@string/mapLeft" />
 
 
         <path
             android:name="middleLeft"
             android:fillColor="#D0011B"
             android:strokeWidth="1"
-            android:pathData="M 186 96 L 231 96 L 231 431 L 186 431 Z" />
+            android:pathData="@string/mapMiddleLeft" />
 
-
-
-
-        <!--<path-->
-        <!--android:name="middleMiddle"-->
-        <!--android:fillColor="#D0011B"-->
-        <!--android:strokeWidth="1"-->
-        <!--android:pathData="M 255 106 L 303 106 L 303 441 L 255 441   Z" />-->
 
         <path
             android:name="middleRight"
             android:fillColor="#D0011B"
             android:strokeWidth="1"
-            android:pathData="M 325 116 L 375 116 L 375 451 L 325 451   Z" />
+            android:pathData="@string/mapMiddleRight" />
+
+        <path
+            android:name="right"
+            android:fillColor="#D0011B"
+            android:strokeWidth="1"
+            android:pathData="@string/mapRight" />
+
 
         <path
             android:name="bottom"
             android:fillColor="#D0011B"
             android:strokeWidth="1"
-            android:pathData="M 34 457 L 186 396 L 325 451 L 478 391 L 478 426 L 325 487 L 186 431 L 34 492 Z" />
+            android:pathData="@string/mapBottom" />
 
     </group>
 

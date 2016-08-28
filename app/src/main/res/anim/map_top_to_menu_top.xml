@@ -3,7 +3,7 @@
     <objectAnimator
         android:duration="@integer/animation_duration"
         android:propertyName="pathData"
-        android:valueFrom="M 34 122 L 186 61 L 325 116 L 478 56 L 478 91 L 325 152 L 186 96 L 34 157 Z"
-        android:valueTo="M 104 108 L 209 108  L 309 108 L 409 108 L 409 158   L 309 158 L 209 158  L 104 158 Z"
+        android:valueFrom="@string/mapTop"
+        android:valueTo="@string/menuTop"
         android:valueType="pathType"/>
 </set>

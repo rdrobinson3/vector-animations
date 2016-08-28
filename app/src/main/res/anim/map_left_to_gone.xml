@@ -3,7 +3,9 @@
     <objectAnimator
         android:duration="@integer/animation_duration"
         android:propertyName="pathData"
-        android:valueFrom="@string/mapBottom"
-        android:valueTo="@string/menuBottom"
-        android:valueType="pathType"/>
+        android:valueFrom="@string/mapLeft"
+        android:valueTo="@string/mapLeftShrunk"
+        android:valueType="pathType"
+        android:interpolator="@android:anim/accelerate_decelerate_interpolator"/>
+
 </set>
