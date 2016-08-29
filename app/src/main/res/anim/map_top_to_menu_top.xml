@@ -1,9 +1,18 @@
 <?xml version="1.0" encoding="utf-8"?>
 <set xmlns:android="http://schemas.android.com/apk/res/android">
     <objectAnimator
-        android:duration="@integer/animation_duration"
+        android:duration="@integer/animation_half_duration"
+        android:propertyName="pathData"
+        android:valueFrom="@string/mapTopWithLeft"
+        android:valueTo="@string/mapTop"
+        android:valueType="pathType"/>
+
+    <objectAnimator
+        android:duration="@integer/animation_half_duration"
+        android:startOffset="@integer/animation_half_duration"
         android:propertyName="pathData"
         android:valueFrom="@string/mapTop"
         android:valueTo="@string/menuTop"
         android:valueType="pathType"/>
+
 </set>

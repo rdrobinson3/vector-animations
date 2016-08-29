@@ -5,6 +5,12 @@
     android:viewportHeight="100"
     android:viewportWidth="100">
 
+    <group android:name="rotationGroup"
+        android:pivotX="50.0"
+        android:pivotY="50.0"
+        android:rotation="0">
+
+
     <path
         android:name="top"
         android:fillColor="#D0011B"
@@ -28,5 +34,7 @@
         android:fillColor="#D0011B"
         android:pathData="@string/menuBottom"
         android:strokeWidth="1" />
+
+    </group>
 
 </vector>

@@ -10,18 +10,24 @@
         android:pivotY="50.0"
         android:rotation="0">
 
-        <path
-            android:name="top"
-            android:fillColor="#D0011B"
-            android:strokeWidth="1"
-            android:pathData="@string/mapTop" />
-
 
         <path
-            android:name="left"
-            android:fillColor="#D0011B"
-            android:strokeWidth="1"
-            android:pathData="@string/mapLeft" />
+        android:name="top"
+        android:fillColor="#D0011B"
+        android:strokeWidth="1"
+        android:pathData="@string/mapTopWithLeft" />
+        <!--<path-->
+            <!--android:name="top"-->
+            <!--android:fillColor="#D0011B"-->
+            <!--android:strokeWidth="1"-->
+            <!--android:pathData="@string/mapTop" />-->
+
+
+        <!--<path-->
+            <!--android:name="left"-->
+            <!--android:fillColor="#D0011B"-->
+            <!--android:strokeWidth="1"-->
+            <!--android:pathData="@string/mapLeft" />-->
 
 
         <path
@@ -37,18 +43,18 @@
             android:strokeWidth="1"
             android:pathData="@string/mapMiddleRight" />
 
-        <path
-            android:name="right"
-            android:fillColor="#D0011B"
-            android:strokeWidth="1"
-            android:pathData="@string/mapRight" />
+        <!--<path-->
+            <!--android:name="right"-->
+            <!--android:fillColor="#D0011B"-->
+            <!--android:strokeWidth="1"-->
+            <!--android:pathData="@string/mapRight" />-->
 
 
         <path
             android:name="bottom"
             android:fillColor="#D0011B"
             android:strokeWidth="1"
-            android:pathData="@string/mapBottom" />
+            android:pathData="@string/mapBottomWithRight" />
 
     </group>
 

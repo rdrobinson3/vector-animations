@@ -16,20 +16,8 @@
         android:name="middle2"
         android:animation="@anim/menu_middle_right_map" />
 
-    <!--<target-->
-        <!--android:name="middleLeft"-->
-        <!--android:animation="@anim/map_middle_left_menu_middle" />-->
-
-    <!--<target-->
-        <!--android:name="middleRight"-->
-        <!--android:animation="@anim/map_middle_right_menu_middle" />-->
-
-    <!--<target-->
-        <!--android:name="right"-->
-        <!--android:animation="@anim/map_right_to_gone" />-->
-
-    <!--<target-->
-        <!--android:name="rotationGroup"-->
-        <!--android:animation="@anim/icon_rotation" />-->
+    <target
+        android:name="rotationGroup"
+        android:animation="@anim/icon_rotation" />
 
 </animated-vector>
