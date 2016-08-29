@@ -18,6 +18,12 @@
         android:strokeWidth="1" />
 
     <path
+        android:name="middle2"
+        android:fillColor="#D0011B"
+        android:pathData="@string/menuMiddle"
+        android:strokeWidth="1" />
+
+    <path
         android:name="bottom"
         android:fillColor="#D0011B"
         android:pathData="@string/menuBottom"
