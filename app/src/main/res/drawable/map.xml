@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <vector xmlns:android="http://schemas.android.com/apk/res/android"
-    android:width="500dp"
-    android:height="500dp"
+    android:width="512dp"
+    android:height="512dp"
     android:viewportWidth="100"
     android:viewportHeight="100">
 
@@ -16,18 +16,6 @@
         android:fillColor="#D0011B"
         android:strokeWidth="1"
         android:pathData="@string/mapTopWithLeft" />
-        <!--<path-->
-            <!--android:name="top"-->
-            <!--android:fillColor="#D0011B"-->
-            <!--android:strokeWidth="1"-->
-            <!--android:pathData="@string/mapTop" />-->
-
-
-        <!--<path-->
-            <!--android:name="left"-->
-            <!--android:fillColor="#D0011B"-->
-            <!--android:strokeWidth="1"-->
-            <!--android:pathData="@string/mapLeft" />-->
 
 
         <path
@@ -42,12 +30,6 @@
             android:fillColor="#D0011B"
             android:strokeWidth="1"
             android:pathData="@string/mapMiddleRight" />
-
-        <!--<path-->
-            <!--android:name="right"-->
-            <!--android:fillColor="#D0011B"-->
-            <!--android:strokeWidth="1"-->
-            <!--android:pathData="@string/mapRight" />-->
 
 
         <path

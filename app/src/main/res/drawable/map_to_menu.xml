@@ -16,8 +16,4 @@
         android:name="middleRight"
         android:animation="@anim/map_middle_right_menu_middle" />
 
-    <target
-        android:name="rotationGroup"
-        android:animation="@anim/icon_rotation" />
-
 </animated-vector>
