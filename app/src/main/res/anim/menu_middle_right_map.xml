@@ -1,0 +1,27 @@
+<set xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <objectAnimator
+        android:duration="@integer/animation_half_duration"
+        android:propertyName="pathData"
+        android:valueFrom="@string/menuMiddle"
+        android:valueTo="@string/mapMiddleSquare"
+        android:valueType="pathType"/>
+
+
+    <objectAnimator
+        android:duration="@integer/animation_quarter_duration"
+        android:startOffset="@integer/animation_half_duration"
+        android:propertyName="pathData"
+        android:valueFrom="@string/mapMiddleSquare"
+        android:valueTo="@string/mapMiddleMiddle"
+        android:valueType="pathType"/>
+
+    <objectAnimator
+        android:startOffset="@integer/animation_three_quarter_duration"
+        android:duration="@integer/animation_quarter_duration"
+        android:propertyName="pathData"
+        android:valueFrom="@string/mapMiddleMiddle"
+        android:valueTo="@string/mapMiddleRight"
+        android:valueType="pathType"/>
+
+</set>

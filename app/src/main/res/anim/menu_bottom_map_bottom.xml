@@ -3,16 +3,15 @@
     <objectAnimator
         android:duration="@integer/animation_half_duration"
         android:propertyName="pathData"
-        android:valueFrom="@string/mapTopWithLeft"
-        android:valueTo="@string/mapTop"
+        android:valueFrom="@string/menuBottom"
+        android:valueTo="@string/mapBottom"
         android:valueType="pathType"/>
 
     <objectAnimator
         android:duration="@integer/animation_half_duration"
         android:startOffset="@integer/animation_half_duration"
         android:propertyName="pathData"
-        android:valueFrom="@string/mapTop"
-        android:valueTo="@string/menuTop"
+        android:valueFrom="@string/mapBottom"
+        android:valueTo="@string/mapBottomWithRight"
         android:valueType="pathType"/>
-
 </set>

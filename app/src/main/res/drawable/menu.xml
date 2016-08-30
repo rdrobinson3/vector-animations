@@ -1,9 +1,15 @@
 <?xml version="1.0" encoding="utf-8"?>
 <vector xmlns:android="http://schemas.android.com/apk/res/android"
-    android:width="500dp"
-    android:height="500dp"
+    android:width="512dp"
+    android:height="512dp"
     android:viewportHeight="100"
     android:viewportWidth="100">
+
+    <group android:name="rotationGroup"
+        android:pivotX="50.0"
+        android:pivotY="50.0"
+        android:rotation="0">
+
 
     <path
         android:name="top"
@@ -18,9 +24,17 @@
         android:strokeWidth="1" />
 
     <path
+        android:name="middle2"
+        android:fillColor="#D0011B"
+        android:pathData="@string/menuMiddle"
+        android:strokeWidth="1" />
+
+    <path
         android:name="bottom"
         android:fillColor="#D0011B"
         android:pathData="@string/menuBottom"
         android:strokeWidth="1" />
+
+    </group>
 
 </vector>

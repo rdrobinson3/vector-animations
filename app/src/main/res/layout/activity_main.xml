@@ -15,7 +15,7 @@
         android:id="@+id/image"
         android:layout_width="45dp"
         android:layout_height="45dp"
-        android:src="@drawable/map_to_menu"/>
+        android:src="@drawable/menu_to_map"/>
 
     <Button
 

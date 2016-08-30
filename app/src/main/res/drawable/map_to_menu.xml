@@ -9,23 +9,11 @@
         android:animation="@anim/map_bottom_to_menu_bottom" />
 
     <target
-        android:name="left"
-        android:animation="@anim/map_left_to_gone" />
-
-    <target
         android:name="middleLeft"
         android:animation="@anim/map_middle_left_menu_middle" />
 
     <target
         android:name="middleRight"
         android:animation="@anim/map_middle_right_menu_middle" />
-
-    <target
-        android:name="right"
-        android:animation="@anim/map_right_to_gone" />
-
-    <target
-        android:name="rotationGroup"
-        android:animation="@anim/icon_rotation" />
 
 </animated-vector>

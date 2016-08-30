@@ -3,14 +3,15 @@
 
 
     <!-- map -->
-    <string name="mapTop">M 6 23 L 35 12 L 62 22 L 91 11 L 91 18 L 62 29 L 35 19 L 6 30 Z</string>
-    <string name="mapLeft">M 6 23 L 15 23 L 15 87 L 6 87 Z</string>
+    <string name="mapTop">        M 11 27 L 11 27 L 6 30  L 6 30   L 6 23  L 35 12  L 62 22 L 91 11 L 91 18  L 62 29 L 35 19  L 6 30 Z</string>
+    <string name="mapTopWithLeft">M 11 27 L 11 87 L 6 87 L 6 30 L 6 23 L 35 12 L 62 22 L 91 11 L 91 18 L 62 29 L 35 19 L 6 30 Z</string>
+
+    <string name="mapBottom"> M 6 87  L 35 75  L 62 86 L 85 78 L 85 78  L 91 76 L 91 80  L 91 74 L 91 81 L 62 92 L 35 82 L 6 93 Z</string>
+    <string name="mapBottomWithRight">M 6 87 L 35 75 L 62 86 L 85 78 L 85 15 L 91 14 L 91 80 L 91 74 L 91 81 L 62 92 L 35 82 L 6 93  Z</string>
+
     <string name="mapMiddleLeft">M 35 18 L 40 18 L 40 82 L 35 82 Z</string>
     <string name="mapMiddleRight">M 62 22 L 67 22 L 67 86 L 62 86   Z</string>
-    <string name="mapRight">M 82 17 L 91 17 L 91 80 L 82 81 Z</string>
 
-
-    <string name="mapBottom">M 6 87 L 35 75 L 62 86 L 91 74 L 91 81 L 62 92 L 35 82 L 6 93 Z</string>
 
     <!-- Used for animation path -->
     <string name="mapMiddleMiddle">M 50 20 L 56 20 L 56 84 L 50 84   Z</string>
@@ -21,8 +22,9 @@
 
 
     <!-- menu -->
-    <string name="menuTop">M 20 20 L 40 20  L 60 20 L 80 20 L 80 30   L 60 30 L 40 30  L 20 30 Z</string>
+    <string name="menuTop">   M 40 30 L 40 30 L 20 30 L 20 30  L 20 20 L 40 20  L 60 20 L 80 20 L 80 30  L 60 30 L 40 30  L 20 30 Z</string>
     <string name="menuMiddle">M 20 44 L 80 44 L 80 54 L 20 54 Z</string>
-    <string name="menuBottom">M 20 67 L 40 67  L 60 67 L 80 67 L 80 77  L 60 77 L 40 77  L 20 77 Z</string>
+    <string name="menuBottom">  M 20 67 L 40 67  L 60 67 L 80 67 L 80 67  L 80 67 L 80 77  L 80 77 L 80 77 L 60 77 L 40 77 L 20 77 Z</string>
+
 
 </resources>
